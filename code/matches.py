@@ -1,3 +1,5 @@
+
+
 import asyncio
 import json
 
@@ -20,9 +22,8 @@ async def main():
         )
         print(json.dumps(matches))
 
-        f = open(filename, "a")
-        f.write(str(matches))
-        f.close()
+        with open(filename, 'a') as outfile:
+            json.dump(matches, outfile)
 
 loop = asyncio.get_event_loop()
 loop.run_until_complete(main())
