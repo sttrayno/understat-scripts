@@ -15,10 +15,6 @@ Need to document each script.
 
 get_league_results()
 
-get_match_players()
-
-get_match_shots()
-
 get_stats() 
 
 get_team_fixtures()
