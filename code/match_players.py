@@ -14,7 +14,7 @@ filename = input ("Please enter the name of the file you wish to output to: ")
 async def main():
     async with aiohttp.ClientSession() as session:
             understat = Understat(session)
-            players = await understat.get_match_players(match)
+            players = await understat.get_match_players(matchid)
             print(json.dumps(players))
 
             with open(filename, 'a') as outfile:
