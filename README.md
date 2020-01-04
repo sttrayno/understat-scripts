@@ -13,12 +13,6 @@ Need to expand matches data to pulling out shots and players
 
 Need to document each script.
 
-get_league_results()
 
-get_stats() 
-
-get_team_fixtures()
-
-get_team_stats() 
 
 
