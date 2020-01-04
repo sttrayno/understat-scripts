@@ -10,15 +10,11 @@ Need to expand matches data to pulling out shots and players
 
 Need to document each script.
 
-get_league_fixtures()
-
 get_league_results()
 
 get_match_players()
 
 get_match_shots()
-
-get_player_matches()
 
 get_stats() 
 
