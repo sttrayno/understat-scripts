@@ -10,16 +10,20 @@ Need to expand matches data to pulling out shots and players
 Need to document each script.
 
 get_league_fixtures()
-get_league_players()
+
 get_league_results()
+
 get_match_players()
-get_match_shots() (understat.Understat method),
-get_player_grouped_stats() (under- stat.Understat method), 8
+
+get_match_shots()
+
 get_player_matches()
-get_stats() (understat.Understat method), 32
+
+get_stats() 
+
 get_team_fixtures()
-get_team_stats() (understat.Understat method),
-get_teams() (understat.Understat method), 43
+
+get_team_stats() 
 
 
 https://readthedocs.org/projects/understat/downloads/pdf/latest/
