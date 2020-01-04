@@ -15,21 +15,26 @@ filename = input ("Please enter the name of the file you wish to output to: ")
 async def main():
     async with aiohttp.ClientSession() as session:
         understat = Understat(session)
+
+
         if club == "":
-            matches = await understat.get_teams(
+            players = await understat.get_league_players(
                 league,
                 year,
                 )
         else:
-            matches = await understat.get_teams(
+            players = await understat.get_league_players(
                 league,
                 year,
-                title=club
+                team_title=club
                 )
-        print(json.dumps(matches))
+
+
+        print(json.dumps(players))
 
         with open(filename, 'a') as outfile:
-            json.dump(matches, outfile)
+            json.dump(players, outfile)
+
 
 loop = asyncio.get_event_loop()
 loop.run_until_complete(main())
