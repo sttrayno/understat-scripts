@@ -29,3 +29,6 @@ get_teams() (understat.Understat method), 43
 U
 understat (module), 5
 Index
+
+
+https://readthedocs.org/projects/understat/downloads/pdf/latest/
